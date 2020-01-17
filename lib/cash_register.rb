@@ -12,6 +12,6 @@ def initialize(discount=0)
 end
 def apply_discount 
 total = (@discount * @total)-total #pemdas
-binding.pry
+
 end
 end
