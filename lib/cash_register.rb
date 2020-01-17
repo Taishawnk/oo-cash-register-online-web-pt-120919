@@ -24,6 +24,6 @@ return "There is no discount to apply."
   end
 end
 def items
-  return @@items
+  return @items
 end
 end
