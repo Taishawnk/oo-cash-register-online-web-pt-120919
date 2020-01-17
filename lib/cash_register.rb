@@ -26,4 +26,6 @@ end
 def items
   return @items
 end
+def void_last_transaction
+  @total. {|i| i.pop 
 end
