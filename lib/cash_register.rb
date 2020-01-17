@@ -18,7 +18,7 @@ if @discount > 0
 @total = @total-(@discount/100 * @total) #pemdas
 return"After the discount, the total comes to #{@total}."
 else 
-return "there is no discount to apply"
+return "There is no discount to apply."
 
 end
 end
