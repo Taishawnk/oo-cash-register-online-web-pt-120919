@@ -12,6 +12,7 @@ def initialize(discount=0)
 end
 def apply_discount 
 @total = @total-(@discount/100 * @total) #pemdas
+return"After the discount, the total comes to #{@total}."
 
 end
 end
