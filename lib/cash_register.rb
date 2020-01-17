@@ -11,7 +11,7 @@ end
     @total += price * quantity
     #quantity.times do 
     @items << title 
-  end
+
 
 #@last_amount = price*quantity
 end
