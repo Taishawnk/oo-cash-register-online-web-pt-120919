@@ -11,8 +11,10 @@ def initialize(discount=0)
     @@items << title 
 end
 def apply_discount 
+if @discount > 0 
 @total = @total-(@discount/100 * @total) #pemdas
-binding.pry
 return"After the discount, the total comes to #{@total}."
+else 
+  return @total
 end
 end
