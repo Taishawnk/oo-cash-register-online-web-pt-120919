@@ -12,7 +12,7 @@ end
     @items << title 
 end
 
- # @last_amount = price*quantity
+  @last_amount = price*quantity
 end
 
 def apply_discount 
@@ -27,5 +27,5 @@ def items
   return @items
 end
 def void_last_transaction
-  @total. {|i| i.pop 
+ @last_amount - @total = @total
 end
