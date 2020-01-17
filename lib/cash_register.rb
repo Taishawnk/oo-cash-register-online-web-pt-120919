@@ -9,6 +9,6 @@ def initialize(discount=0)
   def add_item(title,price,quantity = 1)
     @total += price * quantity
     @@items << title 
-  binding.pry  
+  #binding.pry  
 end
 end
