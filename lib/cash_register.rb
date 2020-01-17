@@ -26,7 +26,8 @@ end
 def items
   return @items
 end
+
 def void_last_transaction
-@total= @total-@last_amount 
+@total= @total-=@last_amount 
 end
 end
