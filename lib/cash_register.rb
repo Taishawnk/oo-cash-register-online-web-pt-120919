@@ -11,6 +11,7 @@ def initialize(discount=0)
     quantity.times do 
     @@items << title 
   end
+  @last_amount = price*quantity
 end
 def apply_discount 
 if @discount > 0 
