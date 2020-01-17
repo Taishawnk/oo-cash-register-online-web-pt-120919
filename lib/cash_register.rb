@@ -11,7 +11,7 @@ def initialize(discount=0)
     @@items << title 
 end
 def apply_discount 
-@total = (@discount/100 * @total) #pemdas
+@total = @total-(@discount/100 * @total) #pemdas
 
 end
 end
